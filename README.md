@@ -36,3 +36,13 @@ With this configuration, Nginx will serve your index.html file when you access t
 # Run
 
 sudo docker run -d -p 8080:80 mynginx
+
+#### GIT
+
+1. git init (inside local project folder)
+2. git config user.name "Santanu Aich"
+3. git config user.email "rccsantanu@gmail.com"
+4. git add .
+5. git commit -m "Initial commit"
+6. git remote add origin https://github.com/rccsantanu/dockerHtnlOne.git (add origin)
+7. git push origin master
